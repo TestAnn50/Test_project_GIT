@@ -3,6 +3,8 @@
 $link = new mysqli('localhost','root','Test1234','classicmodels');
 
 //2: als de verbinding gelukt is
+//even iets wijzigen om Git te testen
+$b = 'verandering voor git';
 if($link)
 {
     //3: opbouw van de query
